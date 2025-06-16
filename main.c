@@ -29,8 +29,18 @@ void exercicio_03(){
     printf("O valor lido foi: %d", numero);
 }
 
+/*EXERCÍCIO 004
+Escreva um programa que leia um número inteiro e depois o imprima usando o operador "%f". Veja o que aconteceu.*/
+void exercicio_04(){
+    int numero;
+    scanf("%d", &numero);
+    printf("%f", numero);
+}
+
 int main()
 {
+
+
     // concluído
     //exercicio_01();
 
@@ -39,6 +49,11 @@ int main()
 
     // concluído
     //exercicio_03();
+
+    //comcluído
+    exercicio_04();
+
+
 
     system("pause");
     return 0;
