@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1750098030 source:c:\users\victor costa\onedrive\documents\codeblocks\livro_exercicios\main.c
+	<stdio.h>
+	<stdlib.h>
+
