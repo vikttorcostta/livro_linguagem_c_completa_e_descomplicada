@@ -41,6 +41,15 @@ void exercicio_005(){
     printf("%d", numero);
 }
 
+/*EXERCÍCIO 006
+Faça um programa que leia um valor do tipo double e depois o imprima na forma de notação ciêntífica*/
+void exercicio_006(){
+    int numero;
+    scanf("%f", &numero);
+    printf("%e", numero);
+}
+
+
 int main()
 {
 
@@ -58,6 +67,7 @@ int main()
 
     // concluído
     // exercicio_005(); retornou 1102053376
+        exercicio_006();
 
     system("pause");
     return 0;
