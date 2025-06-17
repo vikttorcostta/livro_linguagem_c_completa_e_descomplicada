@@ -11,7 +11,7 @@ void exercicio_01(){
 
 /*EXERCÍCIO 002
 Escreva um programa que leia um número inteiro e depois o imprima.*/
-void exercicio_02(){
+void exercicio_002(){
     int numero;
     scanf("%d", &numero);
     printf("%d", numero);
@@ -20,14 +20,14 @@ void exercicio_02(){
 /*EXERCÍCIO 003
 Escreva um programa que leia um número inteiro e depois o imprima a mensagem, "Valor lido: seguido do valor inteiro.
 Use apenas o comando printf();".*/
-void exercicio_03(){
+void exercicio_003(){
     int numero;
     scanf("%d", &numero);
     printf("O valor lido foi: %d", numero);
 }
 /*EXERCÍCIO 004
 Escreva um programa que leia um número inteiro e depois o imprima usando o operador "%f". Veja o que aconteceu.*/
-void exercicio_04(){
+void exercicio_004(){
     int numero;
     scanf("%d", &numero);
     printf("%f", numero);
@@ -54,20 +54,22 @@ int main()
 {
 
     // concluído
-    // exercicio_01();
+    // exercicio_001();
 
     // concluído
-    // exercicio_02();
+    // exercicio_002();
 
     // concluído
-    // exercicio_03();
+    // exercicio_003();
 
     // concluído
-    // exercicio_04(); retornou 0.000000
+    // exercicio_004(); retornou 0.000000
 
     // concluído
     // exercicio_005(); retornou 1102053376
-        exercicio_006();
+
+    // concluído
+    // exercicio_006();
 
     system("pause");
     return 0;
